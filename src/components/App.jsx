@@ -110,7 +110,6 @@ const App = () => {
         <div style={{ height: 40 }}></div>
       )}
 
-      {/* якщо showModal === true, то відображаємо модальне вікно */}
       {modal.showModal && <Modal onClose={toggleModal} largeImageURL={modal.largeImageURL} />}
     </div>
   );
